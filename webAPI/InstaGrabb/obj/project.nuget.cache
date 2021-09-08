@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/6/m4ueghQx/QrsBw3JNdK4eZge5Xatb6YD6opjAEeMcX/h06TZXOljda7rp08cTjuof7Jhwk4jSXJowPB2byg==",
+  "success": true,
+  "projectFilePath": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/InstaGrabb.csproj",
+  "expectedPackageFiles": [
+    "/Users/romansolovev/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/romansolovev/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/romansolovev/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/romansolovev/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/romansolovev/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/romansolovev/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
