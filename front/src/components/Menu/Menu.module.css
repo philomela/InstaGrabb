@@ -1,0 +1,6 @@
+.menu_container {
+    background: blue;
+    display: flex;
+    width: 20%;
+    height: 300px;
+}
