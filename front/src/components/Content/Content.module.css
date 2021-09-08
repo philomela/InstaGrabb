@@ -1,0 +1,5 @@
+.content_container {
+    background: green;
+    display: flex;
+    width: 100%;
+}
