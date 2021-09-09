@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/InstaGrabb.csproj": {}
+    "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb.csproj": {}
   },
   "projects": {
-    "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/InstaGrabb.csproj": {
+    "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/InstaGrabb.csproj",
+        "projectUniqueName": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb.csproj",
         "projectName": "InstaGrabb",
-        "projectPath": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/InstaGrabb.csproj",
+        "projectPath": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb.csproj",
         "packagesPath": "/Users/romansolovev/.nuget/packages/",
-        "outputPath": "/Users/romansolovev/Projects/instagrabb/webAPI/InstaGrabb/obj/",
+        "outputPath": "/Users/romansolovev/Projects/instagrabb/webAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/romansolovev/.config/NuGet/NuGet.Config"
+          "/Users/romansolovev/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
