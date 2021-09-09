@@ -205,7 +205,7 @@
       "outputPath": "/Users/romansolovev/Projects/instagrabb/webAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/romansolovev/.nuget/NuGet/NuGet.Config"
+        "/Users/romansolovev/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

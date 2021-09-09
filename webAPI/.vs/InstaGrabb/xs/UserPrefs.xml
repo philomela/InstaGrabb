@@ -1,11 +1,21 @@
 ﻿<Properties StartupConfiguration="{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}|Default">
   <MonoDevelop.Ide.ItemProperties.InstaGrabb PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/Instagram.cs">
+    <Files>
+      <File FileName="Controllers/Lk.cs" Line="25" Column="1" />
+      <File FileName="Controllers/Instagram.cs" Line="33" Column="6" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="InstaGrabb" expanded="True" selected="True">
-            <Node name="InstaGrabb" expanded="True" />
+          <Node name="InstaGrabb" expanded="True">
+            <Node name="InstaGrabb" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Instagram.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
