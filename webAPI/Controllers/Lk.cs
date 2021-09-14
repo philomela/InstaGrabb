@@ -6,11 +6,11 @@ namespace InstaGrabb.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class Lk : ControllerBase
+    public class LkController : ControllerBase
     {
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<LkController> _logger;
 
-        public Lk(ILogger<WeatherForecastController> logger)
+        public LkController(ILogger<LkController> logger)
         {
             _logger = logger;
         }
