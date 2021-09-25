@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.usernameBlock {
+    --display: flex;
+    --justify-content: center;
+    text-align: center;
+    --display: flex;
+    
+}
+
+.usernameBlock::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: black;
+    width: 100%;
+}
+
+.usernameTitle {
+    font-weight: bold;
+}
+
+.username {
+    font-style: italic;
+}
+
+.informationBlock {
+    --display: flex;
+    text-align: center;
+}
+
+.subscribers, .subscriptions {
+    font-size: 14px;  
+}
+
+
+
+/* .avatarBlock {
+    --max-width: 50%;
+}
+
+.avatarImage {
+    border-radius: 150px;
+} */

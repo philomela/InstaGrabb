@@ -5,12 +5,13 @@ import Profile from './Profile/Profile';
 import MyStatistics from './MyStatistics/MyStatistics';
 import Route from 'react-router-dom/Route';
 
-const Content = () => {
+const Content = (props) => {
     return (
         <div className={styles.content_container}>
             <Menu/>
-            <Route path='/profile' component={Profile}></Route>
-            <Route path='/mystatistic' component={MyStatistics}></Route>
+            <Route path='/profile' 
+                   render={ () => <Profile state={props.state.profile}/>}></Route>
+            <Route path='/mystatistic' render={MyStatistics}></Route>
             
         </div>
     )

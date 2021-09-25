@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 import {BrowserRouter} from 'react-router-dom';
 
 
-const App = () => {
+const App = (props) => {
   return (
    
     <div className="App">
@@ -13,7 +13,8 @@ const App = () => {
       <div className="app-wrapper">
       <BrowserRouter>
         <Header/>
-        <Content/>      
+        <Content state={props.state.content}/>  
+        {console.log(props.state.content)}    
         <Footer/>
         </BrowserRouter>
       </div>
