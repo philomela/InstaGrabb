@@ -1,0 +1,6 @@
+.logo_container {
+    background: rgb(133, 10, 204);
+    display: flex;
+    min-width: 30%;
+    height: 40px;
+}

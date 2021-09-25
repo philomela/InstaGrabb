@@ -1,13 +1,17 @@
 import Menu from './../Menu/Menu'
 import styles from './Content.module.css'
 import axios from 'axios';
+import Profile from './Profile/Profile';
+import MyStatistics from './MyStatistics/MyStatistics';
+import Route from 'react-router-dom/Route';
 
 const Content = () => {
     return (
         <div className={styles.content_container}>
             <Menu/>
-            Hello I am content block
-            <button className={styles.content_button} onClick={SendToApi}>Send test message to api</button>
+            <Route path='/profile' component={Profile}></Route>
+            <Route path='/mystatistic' component={MyStatistics}></Route>
+            
         </div>
     )
 }

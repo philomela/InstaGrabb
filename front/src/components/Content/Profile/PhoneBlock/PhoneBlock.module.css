@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.phone {
+    width: 100%;
+    background: url('./../../../../assets/images/phone-block_background.svg') no-repeat center center;
+}

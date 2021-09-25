@@ -1,9 +1,10 @@
 import styles from './Header.module.css'
+import Logo from './Logo/Logo'
 
 const Header = () => {
     return (
         <div className={styles.header_container}>
-            Hello I am header!
+            <Logo/>
         </div>
     )
 }

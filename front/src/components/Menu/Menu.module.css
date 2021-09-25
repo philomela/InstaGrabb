@@ -1,6 +1,5 @@
 .menu_container {
-    background: blue;
+    background: #525bd0;
     display: flex;
     width: 20%;
-    height: 300px;
 }

@@ -1,0 +1,11 @@
+.menu_items_container {
+    background: #525bd0;
+    display: flex;
+    width: 1000%;
+    height: 300px;
+}
+
+.menu_items_container a {
+    text-decoration: none;
+    color: white;
+}

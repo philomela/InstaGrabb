@@ -1,11 +1,10 @@
 import styles from './Menu.module.css'
+import MenuItems from './MenuItems/MenuItems'
 
 const Menu = () => {
     return (
-        <div className={styles.menu_container}>
-            <div className={styles.menu_block}>
-                Hello I am menu
-            </div>
+        <div className={styles.menu_container}>      
+                <MenuItems/>
         </div>
     )
 }
