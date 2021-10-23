@@ -1,36 +1,57 @@
 ﻿<Properties StartupConfiguration="{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}|Default">
+  <MonoDevelop.Ide.ItemProperties.Services.InstaGrabb.Services.Interfaces FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.InstaGrabb PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/Instagram.cs">
     <Files>
       <File FileName="Controllers/Lk.cs" Line="20" Column="10" />
-      <File FileName="Controllers/Instagram.cs" Line="45" Column="25" />
-      <File FileName="Startup.cs" Line="21" Column="26" />
+      <File FileName="Controllers/Instagram.cs" Line="57" Column="57" />
+      <File FileName="Startup.cs" />
       <File FileName="Program.cs" />
-      <File FileName="appsettings.json" Line="11" Column="1" />
-      <File FileName="appsettings.Development.json" Line="11" Column="23" />
-      <File FileName="Properties/launchSettings.json" Line="12" Column="21" />
+      <File FileName="appsettings.json" />
+      <File FileName="appsettings.Development.json" />
+      <File FileName="Properties/launchSettings.json" Line="30" Column="25" />
+      <File FileName="InstaGrabb.Domain.Core/Class1.cs" Line="14" Column="1" />
+      <File FileName="InstaGrabb.Domain.Core/InstaGrabb.Domain.Interfaces/Class1.cs" Line="10" Column="1" />
+      <File FileName="InstaGrabb.Services.Interfaces/Class1.cs" />
+      <File FileName="InstaGrabb.Infrastructure.Data/Class1.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InstaGrabb" expanded="True">
+            <Node name="Domain" expanded="True">
+              <Node name="InstaGrabb.Domain.Core" expanded="True">
+                <Node name="Models" expanded="True" />
+              </Node>
+              <Node name="InstaGrabb.Domain.Interfaces" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="InstaGrabb.Infrastructure.Data" expanded="True" />
+            </Node>
+            <Node name="Services" expanded="True">
+              <Node name="InstaGrabb.Services.Interfaces" expanded="True" />
+            </Node>
             <Node name="InstaGrabb" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True">
                 <Node name="Instagram.cs" selected="True" />
               </Node>
-              <Node name="sql_scripts" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Domain.InstaGrabb.Domain.Interfaces FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Domain.InstaGrabb.Domain.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.InstaGrabb.Infrastructure.Data FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/romansolovev/Projects/instagrabb/webAPI/Controllers/Instagram.cs" relfile="Controllers/Instagram.cs" line="30" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

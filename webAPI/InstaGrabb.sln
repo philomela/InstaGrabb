@@ -5,6 +5,20 @@ VisualStudioVersion = 16.0.808.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaGrabb", "InstaGrabb.csproj", "{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5A163D87-5064-482F-9621-A65636AAF4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaGrabb.Domain.Core", "InstaGrabb.Domain.Core\InstaGrabb.Domain.Core.csproj", "{B29BD0D9-E768-4815-A2DB-78209E29F525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{19E1A456-1DBE-45D1-9684-6C8DC0A7663E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaGrabb.Domain.Interfaces", "InstaGrabb.Domain.Core\InstaGrabb.Domain.Interfaces\InstaGrabb.Domain.Interfaces.csproj", "{719BCA5B-2464-4AC0-870B-34D4502F82AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{EBB448B0-68F5-47F7-AC64-9256D0CE0ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaGrabb.Services.Interfaces", "InstaGrabb.Services.Interfaces\InstaGrabb.Services.Interfaces.csproj", "{D23B5AC1-5017-4C0C-AA02-EB9D19119848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaGrabb.Infrastructure.Data", "InstaGrabb.Infrastructure.Data\InstaGrabb.Infrastructure.Data.csproj", "{8A285CAD-7109-4A0D-88F9-D668EB4C12DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +29,33 @@ Global
 		{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8972FD2-6D57-45DE-BDF7-E2982CC80E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29BD0D9-E768-4815-A2DB-78209E29F525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29BD0D9-E768-4815-A2DB-78209E29F525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29BD0D9-E768-4815-A2DB-78209E29F525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29BD0D9-E768-4815-A2DB-78209E29F525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719BCA5B-2464-4AC0-870B-34D4502F82AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719BCA5B-2464-4AC0-870B-34D4502F82AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719BCA5B-2464-4AC0-870B-34D4502F82AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719BCA5B-2464-4AC0-870B-34D4502F82AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23B5AC1-5017-4C0C-AA02-EB9D19119848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23B5AC1-5017-4C0C-AA02-EB9D19119848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23B5AC1-5017-4C0C-AA02-EB9D19119848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23B5AC1-5017-4C0C-AA02-EB9D19119848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A285CAD-7109-4A0D-88F9-D668EB4C12DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A285CAD-7109-4A0D-88F9-D668EB4C12DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A285CAD-7109-4A0D-88F9-D668EB4C12DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A285CAD-7109-4A0D-88F9-D668EB4C12DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95E3578D-D831-4814-ACAD-5D0D2D388D17}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B29BD0D9-E768-4815-A2DB-78209E29F525} = {5A163D87-5064-482F-9621-A65636AAF4C4}
+		{719BCA5B-2464-4AC0-870B-34D4502F82AA} = {5A163D87-5064-482F-9621-A65636AAF4C4}
+		{D23B5AC1-5017-4C0C-AA02-EB9D19119848} = {EBB448B0-68F5-47F7-AC64-9256D0CE0ECF}
+		{8A285CAD-7109-4A0D-88F9-D668EB4C12DB} = {19E1A456-1DBE-45D1-9684-6C8DC0A7663E}
 	EndGlobalSection
 EndGlobal
